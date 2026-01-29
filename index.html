@@ -4,9 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tutorial Title</title>
+
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      max-width: 960px;
+      margin: 50px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #222;
+      background-color: #ffffff;
+    }
+
+    h1 {
+      color: #7a0019; /* Title color */
+      font-size: 2.4em;
+      margin-bottom: 5px;
+    }
+
+    .venue {
+      font-size: 1.1em;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+
+    .abstract-box {
+      background: #f5f7fa;
+      border-left: 5px solid #003366;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 4px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 15px;
+      margin-top: 10px;
+      padding: 10px 16px;
+      background: #003366;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      background: #0055aa;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Title of the Tutorial</h1>
-  <p>Your tutorial page is now live.</p>
+
+  <!-- ===== TITLE ===== -->
+  <h1>Title of the Tutorial Goes Here</h1>
+
+  <!-- ===== VENUE / EVENT INFO ===== -->
+  <div class="venue">
+    Tutorial at <strong>Conference / Event Name</strong>,
+    City, Country — Month Day, Year
+  </div>
+
+  <!-- ===== ABSTRACT ===== -->
+  <h2>Abstract</h2>
+  <div class="abstract-box">
+    <p>
+      Paste your tutorial abstract here. This section is designed
+      to highlight the motivation, topics covered, and learning outcomes.
+      You can write multiple sentences and even multiple paragraphs if needed.
+    </p>
+  </div>
+
+  <!-- ===== MATERIALS ===== -->
+  <h2>Materials</h2>
+  <div class="links">
+    <a href="https://your-slides-link-here.com" target="_blank">Slides</a>
+    <a href="https://github.com/CPJKU/cobisllm" target="_blank">GitHub Repository</a>
+  </div>
+
+  <!-- ===== ORGANIZERS ===== -->
+  <h2>Organizers</h2>
+  <ul>
+    <li>Name 1 — Institution</li>
+    <li>Name 2 — Institution</li>
+    <li>Name 3 — Institution</li>
+  </ul>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    © 2026 COBIS LLM Tutorial — Hosted on GitHub Pages
+  </footer>
+
 </body>
 </html>
